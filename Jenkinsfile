@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/vishalmothey/game-of-life.git'
+        git 'https://github.com/vishalmothey/sparkjava-war-example.git'
       }
     }
         stage('Build'){
