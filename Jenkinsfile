@@ -36,7 +36,7 @@ pipeline {
     stage('Remove Unused docker image') {
       steps{
         sh "docker rmi $registry:$BUILD_NUMBER"
-        sh "docker run -d --name Inspiredit10 -p 8088:8080 awsvishalmothey/jenkinspipeline:$BUILD_NUMBER"
+        sh "docker run -d --name Inspiredit11 -p 8088:8080 awsvishalmothey/jenkinspipeline:$BUILD_NUMBER"
         
       }
     }     
